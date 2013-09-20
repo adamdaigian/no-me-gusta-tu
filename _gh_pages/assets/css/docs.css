@@ -257,7 +257,7 @@ body {
     font-size: 100px;
   }
   .bs-masthead .lead {
-    margin-right: 25%;
+/*    margin-right: 25%;*/
     font-size: 30px;
   }
   .bs-masthead-links {
@@ -1146,7 +1146,7 @@ body, html {
   background-image: -moz-linear-gradient(135deg, rgba(249, 212, 91, 0.5) 0%, rgba(220, 30, 45, 0.5) 47%, rgba(5, 40, 117, 0.5) 100%);
   background-image: -o-linear-gradient(135deg, rgba(249, 212, 91, 0.5) 0%, rgba(220, 30, 45, 0.5) 47%, rgba(5, 40, 117, 0.5) 100%);
   background-image: linear-gradient(45deg, rgba(249, 212, 91, 0.5) 0%, rgba(220, 30, 45, 0.5) 47%, rgba(5, 40, 117, 0.5) 100%);
- 
+
   &:before, &:after {
     content:'';
     z-index: 0;
@@ -1157,7 +1157,7 @@ body, html {
     bottom: 0px;
     background:white;
   }
- 
+
   &:before {
     background-image: -webkit-linear-gradient(0deg, rgba(34, 37, 175, 0.5) 0%, rgba(62, 161, 255, 0.5) 48%, rgba(181, 236, 77, 0.5) 100%);
     background-image:    -moz-linear-gradient(0deg, rgba(34, 37, 175, 0.5) 0%, rgba(62, 161, 255, 0.5) 48%, rgba(181, 236, 77, 0.5) 100%);
@@ -1168,7 +1168,7 @@ body, html {
     -o-animation:      Layer1 40s infinite;
     animation:         Layer1 40s infinite;
   }
-  
+
   &:after {
     background-image: -webkit-linear-gradient(-135deg, rgba(248, 0, 93, 0.5) 0%, rgba(36, 0, 219, 0.5) 100%);
     background-image:    -moz-linear-gradient(-135deg, rgba(248, 0, 93, 0.5) 0%, rgba(36, 0, 219, 0.5) 100%);
