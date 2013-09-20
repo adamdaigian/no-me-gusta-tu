@@ -1083,100 +1083,101 @@ h1[id] {
   margin-bottom: 5px;
 }
 
-body, html {
+.musica {
   height:100%;
-}
-* {
-  padding:0;
-  margin:0;
-}
-@-webkit-keyframes Layer1{
-  0%   {opacity:0;}
-  33%  {opacity:1;}
-  66%  {opacity:0;}
-  100% {opacity:0;}
-}
-@-webkit-keyframes Layer2{
-  0%   {opacity:0;}
-  33%  {opacity:0;}
-  66%  {opacity:1;}
-  100% {opacity:0;}
-}
-@-moz-keyframes Layer1{
-  0%   {opacity:0;}
-  33%  {opacity:1;}
-  66%  {opacity:0;}
-  100% {opacity:0;}
-}
-@-moz-keyframes Layer2{
-  0%   {opacity:0;}
-  33%  {opacity:0;}
-  66%  {opacity:1;}
-  100% {opacity:0;}
-}
-@-o-keyframes Layer1{
-  0%   {opacity:0;}
-  33%  {opacity:1;}
-  66%  {opacity:0;}
-  100% {opacity:0;}
-}
-@-o-keyframes Layer2{
-  0%   {opacity:0;}
-  33%  {opacity:0;}
-  66%  {opacity:1;}
-  100% {opacity:0;}
-}
-@keyframes Layer1{
-  0%   {opacity:0;}
-  33%  {opacity:1;}
-  66%  {opacity:0;}
-  100% {opacity:0;}
-}
-@keyframes Layer2{
-  0%   {opacity:0;}
-  33%  {opacity:0;}
-  66%  {opacity:1;}
-  100% {opacity:0;}
-}
-.header {
-  position: relative;
-  height: 100%;
-  width: 100%;
-  background-image: -webkit-linear-gradient(135deg, rgba(249, 212, 91, 0.5) 0%, rgba(220, 30, 45, 0.5) 47%, rgba(5, 40, 117, 0.5) 100%);
-  background-image: -moz-linear-gradient(135deg, rgba(249, 212, 91, 0.5) 0%, rgba(220, 30, 45, 0.5) 47%, rgba(5, 40, 117, 0.5) 100%);
-  background-image: -o-linear-gradient(135deg, rgba(249, 212, 91, 0.5) 0%, rgba(220, 30, 45, 0.5) 47%, rgba(5, 40, 117, 0.5) 100%);
-  background-image: linear-gradient(45deg, rgba(249, 212, 91, 0.5) 0%, rgba(220, 30, 45, 0.5) 47%, rgba(5, 40, 117, 0.5) 100%);
-
-  &:before, &:after {
-    content:'';
-    z-index: 0;
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    right: 0px;
-    bottom: 0px;
-    background:white;
+  width
   }
-
-  &:before {
-    background-image: -webkit-linear-gradient(0deg, rgba(34, 37, 175, 0.5) 0%, rgba(62, 161, 255, 0.5) 48%, rgba(181, 236, 77, 0.5) 100%);
-    background-image:    -moz-linear-gradient(0deg, rgba(34, 37, 175, 0.5) 0%, rgba(62, 161, 255, 0.5) 48%, rgba(181, 236, 77, 0.5) 100%);
-    background-image:      -o-linear-gradient(0deg, rgba(34, 37, 175, 0.5) 0%, rgba(62, 161, 255, 0.5) 48%, rgba(181, 236, 77, 0.5) 100%);
-    background-image:         linear-gradient(-90deg, rgba(34, 37, 175, 0.5) 0%, rgba(62, 161, 255, 0.5) 48%, rgba(181, 236, 77, 0.5) 100%);
-    -webkit-animation: Layer1 40s infinite;
-    -moz-animation:    Layer1 40s infinite;
-    -o-animation:      Layer1 40s infinite;
-    animation:         Layer1 40s infinite;
+  * {
+    padding:0;
+    margin:0;
   }
-
-  &:after {
-    background-image: -webkit-linear-gradient(-135deg, rgba(248, 0, 93, 0.5) 0%, rgba(36, 0, 219, 0.5) 100%);
-    background-image:    -moz-linear-gradient(-135deg, rgba(248, 0, 93, 0.5) 0%, rgba(36, 0, 219, 0.5) 100%);
-    background-image:      -o-linear-gradient(-135deg, rgba(248, 0, 93, 0.5) 0%, rgba(36, 0, 219, 0.5) 100%);
-    background-image:         linear-gradient(-225deg, rgba(248, 0, 93, 0.5) 0%, rgba(36, 0, 219, 0.5) 100%);
-    -webkit-animation: Layer2 40s infinite;
-    -moz-animation:    Layer2 40s infinite;
-    -o-animation:      Layer2 40s infinite;
-    animation:         Layer2 40s infinite;
+  @-webkit-keyframes Layer1{
+    0%   {opacity:0;}
+    33%  {opacity:1;}
+    66%  {opacity:0;}
+    100% {opacity:0;}
   }
+  @-webkit-keyframes Layer2{
+    0%   {opacity:0;}
+    33%  {opacity:0;}
+    66%  {opacity:1;}
+    100% {opacity:0;}
+  }
+  @-moz-keyframes Layer1{
+    0%   {opacity:0;}
+    33%  {opacity:1;}
+    66%  {opacity:0;}
+    100% {opacity:0;}
+  }
+  @-moz-keyframes Layer2{
+    0%   {opacity:0;}
+    33%  {opacity:0;}
+    66%  {opacity:1;}
+    100% {opacity:0;}
+  }
+  @-o-keyframes Layer1{
+    0%   {opacity:0;}
+    33%  {opacity:1;}
+    66%  {opacity:0;}
+    100% {opacity:0;}
+  }
+  @-o-keyframes Layer2{
+    0%   {opacity:0;}
+    33%  {opacity:0;}
+    66%  {opacity:1;}
+    100% {opacity:0;}
+  }
+  @keyframes Layer1{
+    0%   {opacity:0;}
+    33%  {opacity:1;}
+    66%  {opacity:0;}
+    100% {opacity:0;}
+  }
+  @keyframes Layer2{
+    0%   {opacity:0;}
+    33%  {opacity:0;}
+    66%  {opacity:1;}
+    100% {opacity:0;}
+  }
+  .header {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background-image: -webkit-linear-gradient(135deg, rgba(249, 212, 91, 0.5) 0%, rgba(220, 30, 45, 0.5) 47%, rgba(5, 40, 117, 0.5) 100%);
+    background-image: -moz-linear-gradient(135deg, rgba(249, 212, 91, 0.5) 0%, rgba(220, 30, 45, 0.5) 47%, rgba(5, 40, 117, 0.5) 100%);
+    background-image: -o-linear-gradient(135deg, rgba(249, 212, 91, 0.5) 0%, rgba(220, 30, 45, 0.5) 47%, rgba(5, 40, 117, 0.5) 100%);
+    background-image: linear-gradient(45deg, rgba(249, 212, 91, 0.5) 0%, rgba(220, 30, 45, 0.5) 47%, rgba(5, 40, 117, 0.5) 100%);
+
+    &:before, &:after {
+      content:'';
+      z-index: 0;
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      right: 0px;
+      bottom: 0px;
+      background:white;
+    }
+
+    &:before {
+      background-image: -webkit-linear-gradient(0deg, rgba(34, 37, 175, 0.5) 0%, rgba(62, 161, 255, 0.5) 48%, rgba(181, 236, 77, 0.5) 100%);
+      background-image:    -moz-linear-gradient(0deg, rgba(34, 37, 175, 0.5) 0%, rgba(62, 161, 255, 0.5) 48%, rgba(181, 236, 77, 0.5) 100%);
+      background-image:      -o-linear-gradient(0deg, rgba(34, 37, 175, 0.5) 0%, rgba(62, 161, 255, 0.5) 48%, rgba(181, 236, 77, 0.5) 100%);
+      background-image:         linear-gradient(-90deg, rgba(34, 37, 175, 0.5) 0%, rgba(62, 161, 255, 0.5) 48%, rgba(181, 236, 77, 0.5) 100%);
+      -webkit-animation: Layer1 40s infinite;
+      -moz-animation:    Layer1 40s infinite;
+      -o-animation:      Layer1 40s infinite;
+      animation:         Layer1 40s infinite;
+    }
+
+    &:after {
+      background-image: -webkit-linear-gradient(-135deg, rgba(248, 0, 93, 0.5) 0%, rgba(36, 0, 219, 0.5) 100%);
+      background-image:    -moz-linear-gradient(-135deg, rgba(248, 0, 93, 0.5) 0%, rgba(36, 0, 219, 0.5) 100%);
+      background-image:      -o-linear-gradient(-135deg, rgba(248, 0, 93, 0.5) 0%, rgba(36, 0, 219, 0.5) 100%);
+      background-image:         linear-gradient(-225deg, rgba(248, 0, 93, 0.5) 0%, rgba(36, 0, 219, 0.5) 100%);
+      -webkit-animation: Layer2 40s infinite;
+      -moz-animation:    Layer2 40s infinite;
+      -o-animation:      Layer2 40s infinite;
+      animation:         Layer2 40s infinite;
+    }
 }
