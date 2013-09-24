@@ -1083,10 +1083,60 @@ h1[id] {
   margin-bottom: 5px;
 }
 
-.musica {
-  height:100%;
+#musica {
+  height:auto;
   width:100%;
   padding:0;
   margin:0;
-  background: url('');
+  background: url('http://www.rogerroger.org/sites/default/files/styles/fullscreen/public/pano/original/20060401runyon13pano.jpg') no-repeat center fixed;
+  background-size: cover;
+/*  filter: brightness(50%);
+  -webkit-filter: brightness(50%);
+  -moz-filter: brightness(50%);
+  -o-filter: brightness(50%);
+  -ms-filter: brightness(50%);*/
+}
+
+/*#musica > h1 {
+  filter: brightness(100%);
+  -webkit-filter: brightness(100%);
+  -moz-filter: brightness(100%);
+  -o-filter: brightness(100%);
+  -ms-filter: brightness(100%);
+}*/
+
+.white {
+  color: #fff;
+/*  font-size: 3em;*/
+  text-shadow: 0px 1px 3px rgba(0,0,0,0.8),
+               0px 6px 10px rgba(0,0,0,0.2),
+               0px 4px 10px rgba(0,0,0,0.4);
+}
+
+#radio {
+  height:auto;
+  width:100%;
+  padding:0;
+  margin:0;
+  background: url('/assets/img/2048.jpg') no-repeat center fixed;
+  background-size: cover;
+/*  filter: brightness(50%);
+  -webkit-filter: brightness(50%);
+  -moz-filter: brightness(50%);
+  -o-filter: brightness(50%);
+  -ms-filter: brightness(50%);*/
+}
+
+#llama {
+  height:auto;
+  width:100%;
+  padding:0;
+  margin:0;
+  background: #fff;
+  background-size: cover;
+/*  filter: brightness(50%);
+  -webkit-filter: brightness(50%);
+  -moz-filter: brightness(50%);
+  -o-filter: brightness(50%);
+  -ms-filter: brightness(50%);*/
 }
