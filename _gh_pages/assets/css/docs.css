@@ -1085,10 +1085,12 @@ h1[id] {
 
 #musica {
   height:auto;
+  min-height: 600px;
   width:100%;
   padding:0;
   margin:0;
-  background: url('http://www.rogerroger.org/sites/default/files/styles/fullscreen/public/pano/original/20060401runyon13pano.jpg') no-repeat center fixed;
+  padding-top: 14rem;
+  background: url('https://sweatandrepeat.files.wordpress.com/2015/02/img_5004.jpg') no-repeat center fixed;
   background-size: cover;
 /*  filter: brightness(50%);
   -webkit-filter: brightness(50%);
@@ -1139,4 +1141,12 @@ h1[id] {
   -moz-filter: brightness(50%);
   -o-filter: brightness(50%);
   -ms-filter: brightness(50%);*/
+}
+
+.marketing {
+  padding: 6rem 0;
+}
+
+.line-height {
+  line-height: 2rem;
 }
